@@ -1,0 +1,17 @@
+
+
+body {
+   background-image: url("../img/soil.jpg");
+}
+a{
+	text-decoration: none;
+}
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    font-family: Arial;
+    font-size: 20px;
+}
