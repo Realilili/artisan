@@ -16,6 +16,7 @@ a{
 
 .navbar li {
     float: left;
+    list-style-type: none;
 }
 
 .navbar li a {
@@ -24,6 +25,7 @@ a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
 }
 h1 {
     color: orange;
