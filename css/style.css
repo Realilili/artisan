@@ -2,16 +2,78 @@
 
 body {
    background-image: url("../img/soil.jpg");
+   color: white;
 }
 a{
 	text-decoration: none;
 }
+
+
+
+.logo {
+    width: 200px;
+}
+
+
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.navbar li {
+    float: left;
+    list-style-type: none;
+}
+
+.navbar li a {
+    display: block;
+    color: #F5F2B8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
 h1 {
-    color: orange;
+    color: #F5F2B8;
     text-align: center;
 }
 
 p {
-    font-family: Arial;
+    font-family: tahoma, Arial;
     font-size: 20px;
+}
+
+footer {
+  margin-left: 0;
+  bottom: 0;
+  padding-top: 10px;
+  width: 100%;
+
+  text-decoration: none;
+  color: #F5F2B8; 
+  background-image: url("../img/gravel.jpg");
+  background-repeat:no-repeat;
+  background-size: 100%;
+  position: absolute;
+  float: left;
+  border-top: 2px groove white;
+}
+footer a{
+	color: white;
+	
+}
+footer p{
+	margin-left: 15px;
+}
+footer ul{
+	list-style-type: none;
+	
+}
+footer ul li{
+	display: inline-block;
+	margin-left: 10%;
 }
