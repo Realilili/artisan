@@ -2,6 +2,7 @@
 
 body {
    background-image: url("../img/soil.jpg");
+   color: white;
 }
 a{
 	text-decoration: none;
@@ -45,4 +46,36 @@ h1 {
 p {
     font-family: tahoma, Arial;
     font-size: 20px;
+}
+
+footer {
+  margin-left: 0;
+  bottom: 0;
+  padding-top: 10px;
+  width: 100%;
+
+  text-decoration: none;
+  color: white; 
+  background-image: url("../img/gravel.jpg");
+  background-repeat:no-repeat;
+  background-size: 100%;
+  position: absolute;
+  float: left;
+  
+  
+}
+footer a{
+	color: white;
+	
+}
+footer p{
+	margin-left: 15px;
+}
+footer ul{
+	list-style-type: none;
+	
+}
+footer ul li{
+	display: inline-block;
+	margin-left: 10%;
 }
