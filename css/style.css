@@ -6,6 +6,16 @@ body {
 a{
 	text-decoration: none;
 }
+
+
+
+.logo {
+    width: 200px;
+    position: 
+}
+
+
+}
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -33,6 +43,6 @@ h1 {
 }
 
 p {
-    font-family: Arial;
+    font-family: tahoma, Arial;
     font-size: 20px;
 }
