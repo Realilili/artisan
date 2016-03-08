@@ -94,8 +94,62 @@ footer {
 .dumptruckh3{
   
 }
+
+.soilimg{
+  width: 25%;
+  border:8px groove #427034;
+margin-left: 5px;
+margin-right: 5px;
+
+}
+
+
+.pop{
+  width: 80%;
+  margin: 10%;
+}
+
+.modal-title {
+  color: white;
+}
+.modal-body p{
+  color: white;
+}
+
+.popupbutton{
+  text-decoration: :none;
+  color: white;
+}
+.modal-content{
+  background-color: #111111;
+}
+
+
+.soilimgdiv{
+  width: 98%;
+  margin:5px 5px 5px 20px;
+  display: inline-block;
+}
+
+.soilimgdiv2{
+  width:98%;
+  margin:5px 5px 100px 20px;
+  display: inline-block;
+}
+.soilimgdiv3{
+  width:98%;
+  margin:110px 5px 5px 20px;
+  display: inline-block;
+
+}
+.name{
+  display: inline-block;
+}
+
 footer{
 position: fixed;
+bottom: 0;
+margin-top: 100px;
 }
 footer a{
 	color: white;
