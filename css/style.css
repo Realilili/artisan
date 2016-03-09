@@ -145,7 +145,22 @@ margin-right: 5px;
 .name{
   display: inline-block;
 }
+.contactform{
+  text-align: center;
+  width: 50%;
+  margin-top: 10px;
+  z-index: 3;
 
+}
+.form-inline{
+  width: 80%;
+  height: 450px;
+background-image:url("../img/company.jpg");
+ overflow: hidden;
+  margin-top:100px;
+  margin-left: 35px;
+  z-index: 3;
+}
 footer{
 position: fixed;
 bottom: 0;
