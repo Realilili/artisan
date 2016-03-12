@@ -10,53 +10,102 @@
 <nav class="navbar navbar-fixed-top">
     <div>
     <ul class="navbar">
-     <li><a  href="../artisan/index.html"><img class="logo" src="../artisan/img/logo1.png"></a></li>
+     <li class="logo"><a  href="../artisan/index.html"><img class="logo" src="../artisan/img/logo1.png"></a></li>
       <li class="active"><a href="index.html">Home</a></li>
-       <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" >Our Service
-        <span class="caret"></span></a>
-        <ul class="dropdown-menu"> 
-          <li><a href="service.html">Material+Delivery</a></li>
-          <li><a href="delivery.html">Delivery</a></li> </ul>
-        </li>
+          <li><a href="service.html">Delivery</a></li>
       <li><a href="material.html">Material</a></li>
-      <li><a href="order.html">Order</a></li> 
       <li><a href="testmo.html">Testmonials</a></li> 
-      <li><a href="contact.html">Contact</a></li> 
+      <li><a href="contact.html">Order/Contact</a></li> 
     </ul>
         </div>
 </nav>
 
-<div class="form-inline container text-centre">
-  <div class="form-group">
-    <label for="name">Name</label>
-    <input type="text" class="form-control" id="movie-name" placeholder="Your Name">
+
+
+
+<div class="checkbox">
+
+<div class="firstc">
+<LABEL><INPUT TYPE="checkbox" NAME="product" VALUE="amm" CHECKED> Soil Ammender</LABEL>
+<LABEL><INPUT TYPE="checkbox" NAME="product" VALUE="garden"> Garden Soil</LABEL>
+<LABEL><INPUT TYPE="checkbox" NAME="product" VALUE="veggie"> Veggie Soil</LABEL>
+<LABEL><INPUT TYPE="checkbox" NAME="product" VALUE="turf"> Turf Bland</LABEL>
+<LABEL><INPUT TYPE="checkbox" NAME="product" VALUE="bark"> Bark Mulch</LABEL>
+<LABEL><INPUT TYPE="checkbox" NAME="product" VALUE="commulch"> Compost Mulch</LABEL>
+<LABEL><INPUT TYPE="checkbox" NAME="product" VALUE="coursesand"> Course Sand</LABEL></div>
+
+<div class="secondc">
+<LABEL><INPUT TYPE="checkbox" NAME="product" VALUE="finesand"> Fine Sand</LABEL>
+<LABEL><INPUT TYPE="checkbox" NAME="product" VALUE="crush34"> 3/4 Clear Crush</LABEL>
+<LABEL><INPUT TYPE="checkbox" NAME="product" VALUE="roadbase"> Road Base</LABEL>
+<LABEL><INPUT TYPE="checkbox" NAME="product" VALUE="crusher"> Crusher Dust </LABEL>
+<LABEL><INPUT TYPE="checkbox" NAME="product" VALUE="birdseye"> Birds Eye Pea Gravel</LABEL>
+<LABEL><INPUT TYPE="checkbox" NAME="product" VALUE="torpedo"> Torpedo Mix</LABEL>
+<LABEL><INPUT TYPE="checkbox" NAME="product" VALUE="riverrock"> River Rock</LABEL></div>
+
+<div class="thirdc">
+ <div class="cal">
+    <label for="numbers">Width x </label>
+    <input type="numbers" class="form-control" id="wid" placeholder="Feet">
   </div>
-  <div class="email">
-    <label for="email">Email</label>
+  <div class="cal">
+    <label for="numbers">Length x </label>
+    <input type="numbers" class="form-control" id="len" placeholder="Feet">
+  </div>
+  <div class="cal">
+    <label for="numbers">Height x </label>
+    <input type="numbers" class="form-control" id="hei" placeholder="Feet">
+  </div>
+<button type="cal" class="btn btn-default" id="calculator">Calculate into Yard</button>
+<div class="cal">
+    <label for="numbers"></label>
+    <input type="numbers" class="form-control" id="yard" placeholder="Yard">
+  </div>
+</div>
+</div>
+
+
+
+
+
+<div class="form-inline container text-centre">
+  <div class="contactform">
+    <label for="name">Name</label><br>
+    <input type="text" class="form-control" id="yourname" placeholder="Your Name">
+  </div>
+  <div class="contactform">
+    <label for="name">City</label><br>
+    <input type="text" class="form-control" id="city" placeholder="City name you are at">
+  </div>
+  <div class="contactform">
+    <label for="email">Email</label><br>
     <input type="email" class="form-control" id="email" placeholder="Your Email">
   </div>
 
-  <div class="phone">
-    <label for="numbers">Phone Number</label>
+  <div class="contactform">
+    <label for="numbers">Phone Number</label><br>
     <input type="text" class="form-control" id="phone" placeholder="Your phone number">
   </div>
 
-<div class="form-group">
-    <label for="message">Message</label>
-    <input type="message" class="form-control" id="message" placeholder="Your Message">
+<div class="contactform">
+<label for="numbers">Message</label><br>
+   <textarea class="form-control" placeholder="Message" rows="4" cols="50">
+</textarea>
   </div>
 <br>
-<button type="submit" class="btn btn-default" id="send">Send us now</button>
+<button type="contactform" class="btn btn-default" id="send">Send us now</button>
 </div>
-
+<div class="back">
+<img class="backimg" src="img/company.jpg"></div>
 <footer>
   <p><ul><li><strong>Contact:</strong> 604-861-2725 </li>    
      <li>Email us: <a href="topsoildelivery@hotmail.com">
   topsoildelivery@hotmail.com</a>.</li></ul></p></ul>
+
 </footer>
 
 <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+<script src="js/calculator.js"></script>
 </body>
 </html>

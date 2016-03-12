@@ -92,9 +92,19 @@ footer {
 }
 
 .dumptruckh3{
-  
+  margin-top: 70px;
+  margin-bottom: 30px;
+  margin-left: 3%;
 }
-
+.dumptruckimg{
+width: 65%;
+margin-bottom: 25px;
+margin-left:3%;
+}
+.dumptruckh4{
+  margin-bottom: 120px;
+  margin-left: 3%;
+}
 .soilimg{
   width: 25%;
   border:8px groove #427034;
@@ -125,31 +135,103 @@ margin-right: 5px;
 }
 
 
-.soilimgdiv{
+.soilimgdiv1{
   width: 98%;
   margin:5px 5px 5px 20px;
   display: inline-block;
 }
-
-.soilimgdiv2{
-  width:98%;
-  margin:5px 5px 100px 20px;
-  display: inline-block;
+.soilimgdiv{
+  width: 98%;
+  margin: 100px 5px 100px; 
 }
-.soilimgdiv3{
-  width:98%;
-  margin:110px 5px 5px 20px;
-  display: inline-block;
 
-}
+
 .name{
   display: inline-block;
 }
+.contactform{
+  text-align: center;
+  width: 50%;
+  margin-top: 10px;
+  z-index: 3;
 
+}
+.form-inline{
+  width: 80%;
+  height: 450px;
+/*background-image:url("../img/company.jpg");*/
+ overflow: hidden;
+  margin-top:20px;
+  margin-left: 35px;
+  z-index: 3;
+  position: absolute;
+  text-align: left;
+}
+.contactform{
+  text-align: left;
+}
+
+.testmoh2{
+  margin-top: 70px;
+  margin-bottom: 25px;
+  margin-left: 4%;
+  color: #F5F2B8;
+}
+.testmop{
+  width: 70%;
+  
+margin-left: 4%;
+font-size: 15px;
+}
+.testxie{
+  font-style: italic;
+  margin-bottom: 70px;
+  margin-left: 8%;
+  font-size: 15px;
+  color: #FFFEE9;
+}
+.checkbox{
+  display: inline-block;
+
+}
+.firstc{
+  width: 13%;
+  display: inline-block;
+  margin:50px 10px 10px 5%;
+ 
+}
+.secondc{
+  width: 13%;
+  display: inline-block;
+  margin:50px 10px 10px 5%;
+
+}
+
+.back{
+  z-index: -1;
+}
+.backimg{
+  z-index: -1;
+  float: left;
+  margin-bottom: 100px;
+}
+.cal{
+  width: 75px;
+  display: inline-block;
+}
+.thirdc{
+  width: 80%;
+  display: inline-block;
+  margin-left: 6%
+}
+option {
+  color: black;
+}
 footer{
 position: fixed;
 bottom: 0;
 margin-top: 100px;
+z-index: 9;
 }
 footer a{
 	color: white;
