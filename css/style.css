@@ -162,7 +162,7 @@ margin-right: 5px;
 /*background-image:url("../img/company.jpg");*/
  overflow: hidden;
   margin-top:20px;
-  margin-left: 35px;
+  margin-left: 100px;
   z-index: 3;
   position: absolute;
   text-align: left;
@@ -197,18 +197,19 @@ font-size: 15px;
 .firstc{
   width: 13%;
   display: inline-block;
-  margin:50px 10px 10px 5%;
+  margin:50px 10px 10px 7%;
  
 }
 .secondc{
   width: 13%;
   display: inline-block;
-  margin:50px 10px 10px 5%;
+  margin:50px 10px 10px 7%;
 
 }
 
 .back{
   z-index: -1;
+  margin-left: 5%;
 }
 .backimg{
   z-index: -1;
