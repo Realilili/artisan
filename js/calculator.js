@@ -6,7 +6,7 @@ $("#calculator").click(function(argument) {
 	var length=$("#len").val();
 	
 
-	var result= width * length * height/43200;
+	var result= width * length * height;
 	console.log(result) 
  $("#yard").val(result)
 
